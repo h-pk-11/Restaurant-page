@@ -1,0 +1,126 @@
+/* font-face */
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('../fonts/Source_Code_Pro/SourceCodePro-Bold.woff2') format('woff2'),
+        url('../fonts/Source_Code_Pro/SourceCodePro-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('../fonts/Source_Code_Pro/SourceCodePro-Regular.woff2') format('woff2'),
+        url('../fonts/Source_Code_Pro/SourceCodePro-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('../fonts/Source_Code_Pro/SourceCodePro-Light.woff2') format('woff2'),
+        url('../fonts/Source_Code_Pro/SourceCodePro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('../fonts/Source_Code_Pro/SourceCodePro-Medium.woff2') format('woff2'),
+        url('../fonts/Source_Code_Pro/SourceCodePro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('../fonts/Source_Code_Pro/SourceCodePro-SemiBold.woff2') format('woff2'),
+        url('../fonts/Source_Code_Pro/SourceCodePro-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/fairplay_display/PlayfairDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/fairplay_display/PlayfairDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/fairplay_display/PlayfairDisplay-SemiBold.woff2') format('woff2'),
+        url('../fonts/fairplay_display/PlayfairDisplay-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/fairplay_display/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/fairplay_display/PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/fairplay_display/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/fairplay_display/PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ********* */
+:root {
+    --lightAccent-hsl: 185.45,12.94%,83.33%;
+    --headerBackgroundColor: #000;
+    --headerTextColor: #000;
+    --headerBackgroundStativColor: rgba(0, 0, 0, 0.15);
+    --headerBorderColor: rgba(204, 204, 204, 0.08);
+    --navigationLinkColor: hsla(42.48,90.4%,50.97999999999999%,1);
+    --navigationLinkHoverColor: rgba(255, 255, 255, 0.98);
+    --navigationSocialColor: #d9004e;
+    --logoLinkColor: rgba(255, 255, 255, 0.98);
+    --logoLinkHoverColor: #d9004e;
+    --backgroundHomeColor: hsla(var(--lightAccent-hsl),1);
+    --addressLinkColor: rgb(255, 255, 255, 0.98);
+    --footerTextColor: rgb(255, 255, 255, 0.98);
+    --siteBackgroundColor: hsla(var(--lightAccent-hsl),1);
+
+    --menuHeadingColor: #a08871;
+
+    --mapBackgroundColor: rgba(0, 0, 0, 0.5);
+
+    --small-text-size-value: 1.6;
+    
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Source Code Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}

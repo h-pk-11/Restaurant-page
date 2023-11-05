@@ -1,0 +1,108 @@
+/* career introduction */
+.career {
+    position: relative;
+}
+
+.career-introduction {
+    width: 100%;
+    height: 70vh;
+}
+
+.career-introduction img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.career-invitation {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    z-index: 10;
+    padding: 0 8vw;
+}
+
+.career-invitation div {
+    display: block;
+    color: var(--navigationLinkColor);
+    font-size: calc(3vw + 2rem);
+    line-height: calc(3vw + 2rem);
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 0.4em;
+}
+
+.career-invitation button {
+    float: right;
+    padding: 0.7em 0.6em;
+    font-size: calc(0.7vw + 1rem);
+    line-height: calc(0.7vw + 1rem);
+    font-family: 'Source Code Pro';
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 0.4em;
+    border: 0.4em solid var(--navigationLinkColor);
+    color: var(--navigationLinkColor);
+    background-color: transparent;
+    transform-origin: center center;
+    transition: all ease-in 0.2s; 
+}
+
+.career-invitation button:hover {
+    cursor: pointer;
+    color: var(--headerTextColor);
+    background-color: var(--navigationLinkColor);
+}
+
+/* career body */
+.career-body {
+    padding: 5vw 8vw;
+    background-color: var(--navigationLinkColor);
+
+}
+
+.career-content_para {
+    font-size: calc(0.8vw + 0.8rem);
+    line-height: calc(0.8vw + 1.6rem);
+    font-weight: 300;
+}
+
+.career-content_para span {
+    display: block;
+}
+
+.career-content_para-admin {
+    margin-top: 1em;
+}
+
+.career-content_para-benefit {
+    display: block;
+    margin: 2em 0 1em 0;
+    font-family: 'Playfair Display';
+    font-size: calc(1vw + 1.2rem);
+    line-height: calc(1vw + 1.2rem);
+}
+
+.career-content_list {
+    list-style-type: disc;
+    margin: 1em 0;
+}
+
+.career-content_item {
+    font-size: calc(0.8vw + 0.8rem);
+    line-height: calc(0.8vw + 1.6rem);
+    font-weight: 300;
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+
+.career-content_item::marker {
+    font-size: 0.8em;
+}
+
+.career-content_para_end {
+    margin-top: 3em;
+}
