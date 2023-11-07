@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkproject_restaurant_page=self.webpackChunkproject_restaurant_page||[]).push([[463],{463:(e,a,s)=>{e.exports=s.p+"../assets/images/5b66a6394672bd02afff.jpg"}}]);
