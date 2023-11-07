@@ -1,5 +1,5 @@
 import '../style/career.css';
-const kitchenImg = await import('../image/kitchen-1.jpg');
+const kitchenImg = await import('../image/kitchen-1.webp');
 
 function career(){
     return `

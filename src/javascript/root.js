@@ -1,5 +1,5 @@
 import '../style/root.css';
-const desertImg = await import('../image/desert.jpg');
+const desertImg = await import('../image/desert.webp');
 const michelinImg = await import('../image/michelin.png');
 
 export default function root(...args){

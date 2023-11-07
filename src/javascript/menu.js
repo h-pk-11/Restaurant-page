@@ -1,5 +1,5 @@
 import '../style/menu.css';
-const menu1Img = await import('../image/menu-1.jpg');
+const menu1Img = await import('../image/menu-1.webp');
 
 function menu(){
     return `

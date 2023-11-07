@@ -1,5 +1,5 @@
 import '../style/about.css';
-const about1Img = await import('../image/about-1.jpg');
+const about1Img = await import('../image/about-1.webp');
 
 function about(){
     return `

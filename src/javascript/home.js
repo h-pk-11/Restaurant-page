@@ -1,16 +1,16 @@
 import '../style/home.css';
-const intro1Img = await import('../image/intro-1.jpg');
-const intro2Img = await import('../image/intro-2.jpg');
-const intro3Img = await import('../image/intro-3.jpg');
-const dish1Img = await import('../image/dish-1.jpg');
-const dish2Img = await import('../image/dish-2.jpg');
-const dish3Img = await import('../image/dish-3.jpg');
-const dish4Img = await import('../image/dish-4.jpg');
-const dish5Img = await import('../image/dish-5.jpg');
-const dish6Img = await import('../image/dish-6.jpg');
-const dish7Img = await import('../image/dish-7.jpg');
-const dish8Img = await import('../image/dish-8.jpg');
-const dish9Img = await import('../image/dish-9.jpg');
+const intro1Img = await import('../image/intro-1.webp');
+const intro2Img = await import('../image/intro-2.webp');
+const intro3Img = await import('../image/intro-3.webp');
+const dish1Img = await import('../image/dish-1.webp');
+const dish2Img = await import('../image/dish-2.webp');
+const dish3Img = await import('../image/dish-3.webp');
+const dish4Img = await import('../image/dish-4.webp');
+const dish5Img = await import('../image/dish-5.webp');
+const dish6Img = await import('../image/dish-6.webp');
+const dish7Img = await import('../image/dish-7.webp');
+const dish8Img = await import('../image/dish-8.webp');
+const dish9Img = await import('../image/dish-9.webp');
 
 function home(){
 
